@@ -7,7 +7,6 @@ CMakeFiles/
 *.exe
 *.so
 *.a
-*.vir
 Makefile
 
 CMakeCache.txt

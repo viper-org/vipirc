@@ -11,9 +11,16 @@ FetchContent_MakeAvailable(vipir)
 
 set(SOURCES
     "source/main.cpp"
+
+    "source/lexer/SourceLocation.cpp"
+    "source/lexer/Token.cpp"
+    "source/lexer/Lexer.cpp"
 )
 
 set(HEADERS
+    "include/lexer/SourceLocation.h"
+    "include/lexer/Token.h"
+    "include/lexer/Lexer.h"
 )
 
 add_executable(vipirc ${SOURCES} ${HEADERS})
